@@ -1,0 +1,67 @@
+body {
+    color:white;
+    background-color:black;
+    font-family: "Chakra Petch", sans-serif
+}
+
+header {
+    border-bottom: solid 2px red;
+    padding: 20px;
+    font-size: 30px;
+    color: red;
+}
+section {
+    padding-left: 100px;
+}
+
+.tags {color: rgb(30, 162, 209);}
+
+h1{
+    font-size: 50px;
+}
+
+.sinopses {
+    font-size: 30px
+}
+img {
+    height: 200px;
+}
+
+.categoria-video{
+    display: flex;
+    overflow-x:auto;
+    gap: 15px;
+}
+
+.categoria-video img{
+    opacity: 0.6;
+}
+
+.categoria-video img:hover {
+    opacity: 1;
+}
+
+.starwars{
+    margin-top: 50px;
+}
+
+
+.chamada {
+    background: rgb(8, 8, 8);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+.thumbnail img {
+    width: 540px;
+    height: 300px;
+}
+.thumbnail img:hover {
+    border: 2px solid rgb(0, 178, 178)
+}
